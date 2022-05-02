@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+ *{margin: 0;padding: 0;box-sizing: border-box;}
+html{overflow-y: scroll;overflow-x: hidden;}
+ul,
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:link {
+	color: #333;
+}
+a:visited {
+	color: #333;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.cb {
+	clear: both;
+}
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+}
